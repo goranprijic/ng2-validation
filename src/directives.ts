@@ -20,7 +20,7 @@ import { UUIDValidator } from './directives/uuid';
 import { EqualValidator } from './directives/equal';
 import { EqualToValidator } from './directives/equal-to';
 
-export const CUSTOM_FORM_DIRECTIVES: Directive[] = [
+export const CUSTOM_FORM_DIRECTIVES: any[] = [
   RangeLengthValidator,
   MinValidator,
   MaxValidator,
